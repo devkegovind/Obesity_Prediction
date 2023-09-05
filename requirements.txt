@@ -1,0 +1,9 @@
+numpy
+pandas
+matplotlib
+seaborn
+flask
+setuptools
+wordcloud
+
+-e .
