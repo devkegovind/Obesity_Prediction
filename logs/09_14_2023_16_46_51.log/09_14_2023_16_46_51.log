@@ -1,0 +1,6 @@
+[2023-09-14 16:46:52,116] 187 werkzeug - WARNING -  * Debugger is active!
+[2023-09-14 16:46:52,116] 187 werkzeug - WARNING -  * Debugger is active!
+[2023-09-14 16:46:52,120] 187 werkzeug - INFO -  * Debugger PIN: 109-988-193
+[2023-09-14 16:46:52,120] 187 werkzeug - INFO -  * Debugger PIN: 109-988-193
+[2023-09-14 16:49:32,249] 187 werkzeug - INFO -  * Detected change in 'D:\\Obesity_Pred\\.ebextensions\\config.py', reloading
+[2023-09-14 16:49:32,250] 187 werkzeug - INFO -  * Detected change in 'd:\\obesity_pred\\.ebextensions\\config.py', reloading

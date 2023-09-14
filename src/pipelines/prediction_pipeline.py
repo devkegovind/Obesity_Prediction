@@ -67,22 +67,22 @@ class CustomData:
     def get_data_as_dataframe(self):
         try:
             custom_data_input_dict = {
-                [self.Gender] : 'Gender',
-                [self.Age] : 'Age',
-                [self.Height] : 'Height',
-                [self.Weight] : 'Weight',
-                [self.family_history_with_overweight] : 'family_history_with_overweight',
-                [self.FAVC] : 'FAVC',
-                [self.FCVC] : 'FCVC',
-                [self.NCP] : 'NCP',
-                [self.CAEC] : 'CAEC',
-                [self.SMOKE] : 'SMOKE',
-                [self.CH2O] : 'CH2O',
-                [self.SCC] : 'SCC',
-                [self.FAF] : 'FAF',
-                [self.TUE] : 'TUE',
-                [self.CALC] : 'CALC',
-                [self.MTRANS] : 'MTRANS'
+                'Gender':[self.Gender] ,
+                'Age':[self.Age] ,
+                'Height':[self.Height] ,
+                'Weight':[self.Weight] ,
+                'family_history_with_overweight' :[self.family_history_with_overweight] ,
+                'FAVC':[self.FAVC] ,
+                'FCVC':[self.FCVC] ,
+                'NCP' : [self.NCP] ,
+                'CAEC' : [self.CAEC] ,
+                'SMOKE' : [self.SMOKE] ,
+                'CH2O': [self.CH2O] ,
+                'SCC' :[self.SCC] ,
+                'FAF':[self.FAF] ,
+                'TUE' : [self.TUE] ,
+                'CALC' :[self.CALC] ,
+                 'MTRANS' :[self.MTRANS] 
             }
             df = pd.DataFrame(custom_data_input_dict)
             logging.info("DataFrame Gathered")
